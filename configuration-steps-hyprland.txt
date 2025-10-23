@@ -1,0 +1,204 @@
+After Archinstall -> hyprland window manager configuration.
+
+change quickbinds & language, then copypaste kitty & hyprland & .config files to /home/user/.config/
+copy and paste wallpaper & wallpaper.sh to /home directory
+
+install:
+
+sudo pacman -S rofi flatpak discord
+sudo pacman -S mesa vulkan-radeon lib32-mesa lib32-vulkan-radeon
+sudo pacman -S discover
+sudo pacman -S nwg-displays
+sudo pacman -S blueman
+flatpak qview krita
+
+
+installs for Gaming/wallpaper:
+
+
+sudo pacman -S hyprland hyprpaper hyprlock hypridle waybar otf-font-awesome xdg-desktop-portal-hyprland
+
+sudo pacman -S rofi-wayland bemenu-wayland dunst swaybg grim slurp wl-clipboard cliphist pavucontrol brightnessctl network-manager-applet
+
+sudo pacman -S steam wine-staging wine-mono wine-gecko winetricks gamemode mangohud goverlay
+
+sudo pacman -S lutris
+
+flatpak install bottles
+
+yay -S protonup-qt wlogout proton-custom-ge
+
+
+
+performance:
+
+
+
+sudo pacman -S cpupower thermald tlp nvtop btop
+
+~/.config/hyprland/hyprland.conf
+
+Under ###AUTOSTART###
+exec-once = systemctl --user enable --now gamemoded
+
+
+
+
+
+Audio/Media:
+
+
+
+sudo pacman -S pipewire pipewire-alsa pipewire-pulse wireplumber easyeffects
+
+
+
+
+obs-studio: (https://gist.github.com/brunoanc/2dea6ddf6974ba4e5d26c3139ffb7580)
+
+
+
+sudo pacman -S pipewire wireplumber
+yay -S wlrobs-hg obs-studio-git
+yay -S xdg-desktop-portal-hyprland-git
+sudo pacman -S xdg-desktop-portal-wlr
+
+
+
+yay:
+
+
+
+https://itsfoss.com/install-yay-arch-linux/
+
+sudo pacman -S --needed base-devel git
+
+git clone https://aur.archlinux.org/yay.git
+
+cd yay
+
+makepkg -si
+
+
+
+Styling:
+
+
+
+https://www.lorenzobettini.it/2024/06/kde-theming-and-styling-in-hyprland/
+
+https://github.com/P-ti-bob/hyprland/blob/main/docs/theming.md
+
+
+pacman -S nwg-look
+pacman -S qt5ct qt6ct kvantum
+yay -S kvantum-theme-catppuccin-git
+
+nwg-look:
+Color Scheme: Prefer dark
+Icon: Breeze
+Mouse Cursor: Breeze Dark
+
+sudo -E kvantummanager
+
+set wanted kvantum theme
+
+
+
+
+----------------------------------------------------------------------------------------------------------------
+Optional:
+https://www.lorenzobettini.it/2024/02/hyprland-and-wlogout/
+
+wlogout / swaylock:
+
+yay -S wlogout
+
+-----------------------------------------------------------------------------------------------------------------
+My: (Leave Monitor auto, auto, auto)
+hyprland.conf
+
+################
+### MONITORS ###
+################
+
+# See https://wiki.hypr.land/Configuring/Monitors/
+monitor=DP-3,2560x1440@144,2560x0,1
+monitor=HDMI-A-3,1920x1080,auto,1,transform,3
+monitor=HDMI-A-1,1920x1080,auto,auto
+
+###################
+### MY PROGRAMS ###
+###################
+
+# See https://wiki.hypr.land/Configuring/Keywords/
+
+# Set programs that you use
+$terminal = kitty
+$fileManager = nautilus
+$menu = rofi -show drun
+
+
+#################
+### AUTOSTART ###
+#################
+
+# Autostart necessary processes (like notifications daemons, status bars, etc.)
+# Or execute your favorite apps at launch like this:
+
+# exec-once = $terminal
+# exec-once = nm-applet &
+exec-once = waybar & hyprpaper
+exec-once = dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
+exec-once = systemctl --user start plasma-polkit-agent
+exec-once = systemctl --user start gamemoded
+
+#############################
+### ENVIRONMENT VARIABLES ###
+#############################
+
+# See https://wiki.hypr.land/Configuring/Environment-variables/
+
+env = XCURSOR_SIZE,24
+env = HYPRCURSOR_SIZE,24
+env = QT_QPA_PLATFORMTHEME,wayland
+env = QT_QPA_PLATFORMTHEME,qt5ct
+
+#############
+### INPUT ###
+#############
+
+# https://wiki.hypr.land/Configuring/Variables/#input
+input {
+    kb_layout = fi
+    kb_variant =
+    kb_model =
+    kb_options =
+    kb_rules =
+
+    follow_mouse = 1
+
+    sensitivity = 0 # -1.0 - 1.0, 0 means no modification.
+
+    touchpad {
+        natural_scroll = false
+    }
+}
+
+###################
+### KEYBINDINGS ###
+###################
+
+# See https://wiki.hypr.land/Configuring/Keywords/
+$mainMod = SUPER # Sets "Windows" key as main modifier
+
+# Example binds, see https://wiki.hypr.land/Configuring/Binds/ for more
+bind = $mainMod, RETURN, exec, $terminal
+bind = $mainMod, Q, killactive,
+bind = $mainMod, M, exit,
+bind = $mainMod, E, exec, $fileManager
+bind = $mainMod, V, togglefloating,
+bind = $mainMod, R, exec, $menu
+bind = $mainMod, P, pseudo, # dwindle
+bind = $mainMod, J, togglesplit, # dwindle
+bind = $mainMod+Shift, W, exec, $HOME/wallpaper.sh
