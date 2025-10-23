@@ -24,3 +24,6 @@ create wallpaper folder to /home and add wallpaper.sh to /home folder aswell.
 you can download 13 wallpapers with names like "WP1.jpg - WP13.jpg" and rotate the wallpapers by pressing windows+shift+w
 if u want to use other type of wallpapers, edit the wallpaper.sh script to your liking. like WP1 - WP13.png or something.
 
+<img width="2560" height="1440" alt="2025-10-23-221729_hyprshot" src="https://github.com/user-attachments/assets/9b80d52e-e81a-445f-8b89-568477311968" />
+<img width="1080" height="1920" alt="2025-10-23-221738_hyprshot" src="https://github.com/user-attachments/assets/b0a9603c-d7ad-4fa4-84a8-e2ff5100b2ba" />
+<img width="1920" height="1080" alt="2025-10-23-221746_hyprshot" src="https://github.com/user-attachments/assets/1f4d4669-21c2-4aa1-aacc-73e07fa1f830" />
