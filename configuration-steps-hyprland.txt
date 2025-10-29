@@ -92,7 +92,8 @@ https://github.com/P-ti-bob/hyprland/blob/main/docs/theming.md
 
 
 pacman -S nwg-look
-pacman -S qt5ct qt6ct kvantum
+pacman -S qt5ct kvantum
+yay -S qt6ct-kde
 yay -S kvantum-theme-catppuccin-git
 
 nwg-look:
