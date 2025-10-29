@@ -17,7 +17,7 @@ sudo pacman -S dolphin-plugins archlinux-xdg-menu
 installs for Gaming/wallpaper:
 
 
-sudo pacman -S hyprland hyprpaper hyprlock hypridle waybar otf-font-awesome xdg-desktop-portal-hyprland
+sudo pacman -S hyprland hyprpaper hyprlock hypridle waybar otf-font-awesome xdg-desktop-portal-hyprland ark
 
 sudo pacman -S rofi-wayland bemenu-wayland dunst swaybg grim slurp wl-clipboard cliphist pavucontrol brightnessctl network-manager-applet
 

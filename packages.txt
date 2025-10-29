@@ -91,3 +91,4 @@ xf86-video-ati
 xorg-server
 xorg-xinit
 zram-generator
+ark
