@@ -1,5 +1,6 @@
 amd-ucode
 archlinux-xdg-menu
+ark
 base
 base-devel
 bemenu-wayland
@@ -17,6 +18,7 @@ dolphin
 dolphin-plugins
 dunst
 efibootmgr
+evtest
 firefox
 flatpak
 gamemode
@@ -25,7 +27,12 @@ git
 goverlay
 grim
 grub
+gst-libav
 gst-plugin-pipewire
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
 htop
 hypridle
 hyprland
@@ -33,7 +40,6 @@ hyprlock
 hyprpaper
 hyprshot
 iwd
-joyutils
 kate
 kitty
 konsole
@@ -41,7 +47,9 @@ kvantum
 libpulse
 linux
 linux-firmware
+linux-headers
 linux-zen
+linuxconsole
 lutris
 mangohud
 nano
@@ -67,7 +75,6 @@ smartmontools
 steam
 sway
 thermald
-tlp
 ttf-hack
 uwsm
 vim
@@ -91,4 +98,3 @@ xf86-video-ati
 xorg-server
 xorg-xinit
 zram-generator
-ark

@@ -27,7 +27,7 @@ sudo pacman -S lutris
 
 flatpak install bottles
 
-yay -S protonup-qt wlogout proton-custom-ge
+yay -S protonup-qt wlogout proton-custom-ge xboxdrv
 
 
 
