@@ -20,9 +20,9 @@ set wanted kvantum theme
 
 
 wallpaper engine:
-create wallpaper folder to /home and add wallpaper.sh to /home folder aswell.
-you can download 13 wallpapers with names like "WP1.jpg - WP13.jpg" and rotate the wallpapers by pressing windows+shift+w
-if u want to use other type of wallpapers, edit the wallpaper.sh script to your liking. like WP1 - WP13.png or something.
+Create wallpaper folder to /home and add wallpaper.sh to /home folder aswell.
+You can now add pictures to the wallpaper folder, or make sub folders for wallpapers and change wallpaper by pressing win+shift+w or by clicking the button 
+on top right of your screen.
 
 <img width="2560" height="1440" alt="2025-10-23-221729_hyprshot" src="https://github.com/user-attachments/assets/9b80d52e-e81a-445f-8b89-568477311968" />
 <img width="1080" height="1920" alt="2025-10-23-221738_hyprshot" src="https://github.com/user-attachments/assets/b0a9603c-d7ad-4fa4-84a8-e2ff5100b2ba" />
