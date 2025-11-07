@@ -3,7 +3,7 @@ My-Hyprland-Setup-And-Config-Files
 Read configuration-steps-hyprland.txt for setting up hyprland to my theme and to install packages necessary to run multimedia/games on this setup.
 
 Styling:
-pacman -S nwg-look
+pacman -S nwg-look breeze breeze-icons
 pacman -S qt5ct qt6ct kvantum
 yay -S kvantum-theme-catppuccin-git
 
