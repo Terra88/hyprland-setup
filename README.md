@@ -24,4 +24,5 @@ Create wallpaper folder to /home and add wallpaper.sh to /home folder aswell.
 You can now add pictures to the wallpaper folder, or make sub folders for wallpapers and change wallpaper by pressing win+shift+w or by clicking the button 
 on top right of your screen.
 
+<img width="2561" height="1441" alt="2025-11-07-102332_hyprshot" src="https://github.com/user-attachments/assets/ace98e93-c609-4466-bc95-d28ba11814ea" />
 
