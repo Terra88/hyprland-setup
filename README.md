@@ -21,7 +21,7 @@ set wanted kvantum theme
 wallpaper engine:
 Create wallpaper folder to /home and add wallpaper.sh to /home folder aswell.
 You can now add pictures to the wallpaper folder, or make sub folders for wallpapers and change wallpaper by pressing win+shift+w or by clicking the button 
-on top right of your screen.
+on top right of your screen. "Notice - if the wallpaper folder has something else than pictures in it, it will break like .rar .zip etc files"
 
 ###**<br>If you want to use my other project: https://github.com/terra88/archlinux to install arch linux, you can install hyprland and the theme with it automatically with these steps:<br>^**
 ###**-Block 11 will prompt if you install Hyprland and ask, if you want to add my custom theme to it y/N. If you answer yes, additional packages will be installed that the theme requires and .config files will be copied** ###**automatically from this GitHub project. On a note you should also install the extra AUR packages, which are required for the theme.<br><br>**
