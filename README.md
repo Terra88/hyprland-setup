@@ -19,6 +19,9 @@ Create wallpaper folder to /home and add wallpaper.sh to /home folder aswell.
 You can now add pictures to the wallpaper folder, or make sub folders for wallpapers and change wallpaper by pressing win+shift+w or by clicking the button 
 on top right of your screen.
 
+Notice: This project is still under construction, i am mainly focusing on my archlinux installer for now, and will finish the theme later. Even though it doesn't have much features, it does add more widgets than the regular hyprland install, which has zero extra widgets:
+
+Features: Wallpaper engine, screen lock(hyprlock and a button to it), audio volume control icons and when pressed opens pavucontrol, bluetooth/network widgets, extra menu button, to open rofi, or wofi with, can be changed in the config, default: rofi), info bar that informs current folder path or web page name etc.
 
 ###**<br>If you want to use my other project: https://github.com/terra88/archlinux to install arch linux, you can install hyprland and the theme with it automatically with these steps:<br>^**
 ###**-Block 11 will prompt if you install Hyprland and ask, if you want to add my custom theme to it y/N. If you answer yes, additional packages will be installed that the theme requires and .config files will be copied** ###**automatically from this GitHub project. On a note you should also install the extra AUR packages, which are required for the theme.<br><br>**
