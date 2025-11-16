@@ -1,12 +1,4 @@
-# hyprland-setup<br><br>
-Current keybinds, are:<br>
--windows+Q : exit highlighted window/program.<br>
--windows+Enter(Return): open terminal<br>
--windows+R: open menu(installed programs)<br>
--windows+E: open file manager.<br>
--windows+M: logout to login screen(for power button etc)<br>
-<br>
-My-Hyprland-Setup-And-Config-Files
+# My-Hyprland-Setup-And-Config-Files<br><br>
 Read configuration-steps-hyprland.txt for setting up hyprland to my theme and to install packages necessary to run multimedia/games on this setup.
 
 Styling:
