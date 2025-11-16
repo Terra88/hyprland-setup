@@ -17,7 +17,7 @@ sudo pacman -S dolphin-plugins archlinux-xdg-menu
 
 installs for hyprland UI:
 sudo pacman -S hyprland hyprpaper hyprlock hypridle waybar otf-font-awesome xdg-desktop-portal-hyprland ark
-sudo pacman -S rofi-wayland bemenu-wayland dunst swaybg grim slurp wl-clipboard cliphist pavucontrol brightnessctl network-manager-applet
+sudo pacman -S rofi-wayland bemenu-wayland pavucontrol brightnessctl network-manager-applet
 
 performance:
 sudo pacman -S cpupower thermald tlp nvtop btop
