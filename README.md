@@ -3,7 +3,7 @@ Read configuration-steps-hyprland.txt for setting up hyprland to my theme and to
 
 Features: Wallpaper engine, screen lock(hyprlock and a button to it), audio volume control icons and when pressed opens pavucontrol, bluetooth/network widgets, extra menu button, to open rofi, or wofi with, can be changed in the config, default: rofi), info bar that informs current folder path or web page name etc.
 
-Notice: This project is still under construction, i am mainly focusing on my archlinux installer for now, and will finish the theme later. Even though it doesn't have much features, it does add more widgets than the regular hyprland install, which has zero extra widgets:
+Notice: This project is still under construction, Even though it's a work in progress I am using it myself on my daily setup, so it does work. It does add more widgets than the regular hyprland install, which has zero extra widgets:
 <img width="2561" height="1441" alt="2025-11-07-102332_hyprshot" src="https://github.com/user-attachments/assets/ace98e93-c609-4466-bc95-d28ba11814ea" />
 Custom waybar & wallpaper engine:
 Create wallpaper folder to /home and add wallpaper.sh to /home folder aswell.
