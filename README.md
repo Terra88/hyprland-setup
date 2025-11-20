@@ -1,7 +1,7 @@
 # My-Hyprland-Setup-And-Config-Files<br><br>
 Read configuration-steps-hyprland.txt or follow the readme for setting up this theme.
 
-Features: Wallpaper engine, screen lock(hyprlock and a button to it), audio volume control icons and when pressed opens pavucontrol, bluetooth/network widgets, extra menu button, to open rofi, or wofi with, can be changed in the config, default: rofi), info bar that informs current folder path or web page name etc.
+Features: Wallpaper engine, screen lock(hyprlock),Custom Waybar with interactive widgets like: audio/mic volume control, when pressed opens pavucontrol, bluetooth/network widgets, extra menu button, to open current default menu app: rofi), info bar that informs current folder path or web page name etc.
 <img width="2560" height="1440" alt="2025-11-21-002517_hyprshot" src="https://github.com/user-attachments/assets/b8803968-622d-4f05-b733-59339856d9bd" />
 <img width="2560" height="1440" alt="2025-11-21-002603_hyprshot" src="https://github.com/user-attachments/assets/c23b24d8-0abe-48dd-8a05-4ddd49224969" />
 
