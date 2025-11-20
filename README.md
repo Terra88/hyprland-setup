@@ -1,5 +1,5 @@
 # My-Hyprland-Setup-And-Config-Files<br><br>
-Read configuration-steps-hyprland.txt for setting up hyprland to my theme and to install packages necessary to run multimedia/games on this setup.
+Read configuration-steps-hyprland.txt or follow the readme for setting up this theme.
 
 Features: Wallpaper engine, screen lock(hyprlock and a button to it), audio volume control icons and when pressed opens pavucontrol, bluetooth/network widgets, extra menu button, to open rofi, or wofi with, can be changed in the config, default: rofi), info bar that informs current folder path or web page name etc.
 
