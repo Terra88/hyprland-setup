@@ -6,8 +6,7 @@ Features: Wallpaper engine, screen lock(hyprlock and a button to it), audio volu
 Notice: This project is still under construction, i am mainly focusing on my archlinux installer for now, and will finish the theme later. Even though it doesn't have much features, it does add more widgets than the regular hyprland install, which has zero extra widgets:
 
 Styling:
-pacman -S nwg-look breeze breeze-icons
-Pacman -S hicolor-icon-theme adwaita-icon-theme
+pacman -S nwg-look breeze breeze-icons hicolor-icon-theme adwaita-icon-theme
 pacman -S qt5ct qt6ct kvantum
 yay -S kvantum-theme-catppuccin-git
 
