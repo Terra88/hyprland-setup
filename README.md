@@ -7,6 +7,7 @@ Notice: This project is still under construction, i am mainly focusing on my arc
 
 Styling:
 pacman -S nwg-look breeze breeze-icons
+Pacman -S hicolor-icon-theme adwaita-icon-theme
 pacman -S qt5ct qt6ct kvantum
 yay -S kvantum-theme-catppuccin-git
 
