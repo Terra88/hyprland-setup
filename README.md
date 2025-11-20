@@ -2,10 +2,10 @@
 Read configuration-steps-hyprland.txt or follow the readme for setting up this theme.
 
 Features: Wallpaper engine, screen lock(hyprlock and a button to it), audio volume control icons and when pressed opens pavucontrol, bluetooth/network widgets, extra menu button, to open rofi, or wofi with, can be changed in the config, default: rofi), info bar that informs current folder path or web page name etc.
+<img width="2560" height="1440" alt="2025-11-21-002517_hyprshot" src="https://github.com/user-attachments/assets/b8803968-622d-4f05-b733-59339856d9bd" />
+<img width="2560" height="1440" alt="2025-11-21-002603_hyprshot" src="https://github.com/user-attachments/assets/c23b24d8-0abe-48dd-8a05-4ddd49224969" />
 
-Notice: This project is still under construction, Even though it's a work in progress I am using it myself on my daily setup, so it does work. It does add more widgets than the regular hyprland install, which has zero extra widgets:
-<img width="1920" height="1080" alt="2025-11-21-000952_hyprshot" src="https://github.com/user-attachments/assets/d23d27f6-daf1-49df-a168-b4e03489bf11" />
-<img width="1920" height="1080" alt="2025-11-21-001407_hyprshot" src="https://github.com/user-attachments/assets/6af520d3-4be4-4d8d-b9d5-3414a94d2e89" />
+Notice: This project is still under construction.
 Custom waybar & wallpaper engine:
 Create wallpaper folder to /home and add wallpaper.sh to /home folder aswell.
 You can now add pictures to the wallpaper folder, or make sub folders for wallpapers and change wallpaper by pressing win+shift+w or by clicking the button 
