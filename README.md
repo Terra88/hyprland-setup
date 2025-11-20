@@ -5,8 +5,7 @@ Features: Wallpaper engine, screen lock(hyprlock and a button to it), audio volu
 
 Notice: This project is still under construction, Even though it's a work in progress I am using it myself on my daily setup, so it does work. It does add more widgets than the regular hyprland install, which has zero extra widgets:
 <img width="1920" height="1080" alt="2025-11-21-000952_hyprshot" src="https://github.com/user-attachments/assets/d23d27f6-daf1-49df-a168-b4e03489bf11" />
-
-
+<img width="1920" height="1080" alt="2025-11-21-001407_hyprshot" src="https://github.com/user-attachments/assets/6af520d3-4be4-4d8d-b9d5-3414a94d2e89" />
 Custom waybar & wallpaper engine:
 Create wallpaper folder to /home and add wallpaper.sh to /home folder aswell.
 You can now add pictures to the wallpaper folder, or make sub folders for wallpapers and change wallpaper by pressing win+shift+w or by clicking the button 
