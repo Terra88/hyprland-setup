@@ -42,6 +42,8 @@ Styling:
 
 pacman -S nwg-look
 pacman -S qt5ct kvantum
+sudo pacman -S breeze breeze-icons hicolor-icon-theme adwaita-icon-theme
+
 yay -S qt6ct-kde
 yay -S kvantum-theme-catppuccin-git
 
