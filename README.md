@@ -40,108 +40,109 @@ INSTALL COMMANDS:
 Pacman:
 sudo pacman -S nano wget networkmanager network-manager-applet bluez bluez-utils blueman hypridle hyprlock hyprpaper hyprshot slurp swayidle swaylock waybar xdg-desktop-portal-hyprland qt5-wayland qt6-wayland qt5ct qt6ct xdg-utils breeze breeze-icons discover dolphin dolphin-plugins kate konsole krita kvantum polkit-kde-agent pipewire gst-plugin-pipewire pavucontrol gst-libav gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly otf-font-awesome ttf-hack cpupower brightnessctl thermald smartmontools htop btop nvtop qview ark kitty konsole firefox dunst wofi nwg-look nwg-displays archlinux-xdg-menu uwsm
 
-Paru - Install AUR package helper for (kvantum-theme-catppuccin-git):
-sudo pacman -S --needed base-devel git
-git clone https://aur.archlinux.org/paru.git
-cd paru
-makepkg -si
+Paru - Install AUR package helper for (kvantum-theme-catppuccin-git):<br>
+sudo pacman -S --needed base-devel git<br>
+git clone https://aur.archlinux.org/paru.git<br>
+cd paru<br>
+makepkg -si<br>
+<br>
 
-paru -S kvantum-theme-catppuccin-git qt6ct-kde wlogout wlrobs-hg qview
+paru -S kvantum-theme-catppuccin-git qt6ct-kde wlogout wlrobs-hg qview<br><br>
 
-All packages listed here, what the "system" is built from. excluded linux kernels & gpu drivers etc.
-CONTENTS:
-1. Core System / Base System
--nano / vim – Terminal text editors.
--wget – Command-line file downloader.
+All packages listed here, what the "system" is built from. excluded linux kernels & gpu drivers etc.<br>
+CONTENTS:<br>
+1. Core System / Base System<br>
+-nano / vim – Terminal text editors.<br>
+-wget – Command-line file downloader.<br><br>
 
-2. Networking (Everything for networking, Bluetooth, SSH, and Wi-Fi control.)
-Packages:
--networkmanager – Main network connection manager.
--network-manager-applet – System tray applet for NetworkManager.
--bluez – Official Linux Bluetooth protocol stack.
--bluez-utils – Bluetooth management tools (bluetoothctl, etc.).
--blueman – GUI Bluetooth manager.
+2. Networking (Everything for networking, Bluetooth, SSH, and Wi-Fi control.)<br>
+Packages:<br>
+-networkmanager – Main network connection manager.<br>
+-network-manager-applet – System tray applet for NetworkManager.<br>
+-bluez – Official Linux Bluetooth protocol stack.<br>
+-bluez-utils – Bluetooth management tools (bluetoothctl, etc.).<br>
+-blueman – GUI Bluetooth manager.<br><br>
 
-3. Display Server / Wayland / Hyprland - (Packages that provide your compositor, Wayland tools, and Hyprland ecosystem.) Packages:
--hypridle – Idle daemon (sleep, lock actions).
--hyprlock – Screen locker for Hyprland.
--hyprpaper – Wallpaper manager for Hyprland.
--hyprshot – Screenshot tool for Hyprland.
--slurp – Region selector for screenshots/screen recording.
--swayidle – Generic Wayland idle manager (alternate to hypridle).
--swaylock – Screen locker (not used if using hyprlock).
--waybar – Customizable Wayland system bar.
--wlogout – Logout/shutdown menu for Wayland.
--wlrobs-hg – OBS WLroots screen capture plugin.
--uwsm – Universal Wayland Session Manager.
--xdg-desktop-portal-hyprland – Portal backend for Hyprland (screensharing/file dialogs).
--General Wayland support
--qt5-wayland – Enables Qt5 apps on Wayland.
--qt6-wayland – Enables Qt6 apps on Wayland.
--qt5ct / qt6ct – Qt theming/config utilities.
--xdg-utils – Standard desktop environment utilities.
+3. Display Server / Wayland / Hyprland - (Packages that provide your compositor, Wayland tools, and Hyprland ecosystem.)<br> Packages:<br>
+-hypridle – Idle daemon (sleep, lock actions).<br>
+-hyprlock – Screen locker for Hyprland.<br>
+-hyprpaper – Wallpaper manager for Hyprland.<br>
+-hyprshot – Screenshot tool for Hyprland.<br>
+-slurp – Region selector for screenshots/screen recording.<br>
+-swayidle – Generic Wayland idle manager (alternate to hypridle).<br>
+-swaylock – Screen locker (not used if using hyprlock).<br>
+-waybar – Customizable Wayland system bar.<br>
+-wlogout – Logout/shutdown menu for Wayland.<br>
+-wlrobs-hg – OBS WLroots screen capture plugin.<br>
+-uwsm – Universal Wayland Session Manager.<br>
+-xdg-desktop-portal-hyprland – Portal backend for Hyprland (screensharing/file dialogs).<br>
+-General Wayland support<br>
+-qt5-wayland – Enables Qt5 apps on Wayland.<br>
+-qt6-wayland – Enables Qt6 apps on Wayland.<br>
+-qt5ct / qt6ct – Qt theming/config utilities.<br>
+-xdg-utils – Standard desktop environment utilities.<br><br>
 
-4. KDE / Qt Apps & Frameworks - (You have multiple KDE/Qt applications and theming tools.)
-Packages:
--breeze – Official KDE theme and icon set.
--breeze-icons
--kitty – GPU accelerated terminal.
--discover – KDE software manager.
--dolphin – KDE file manager.
--dolphin-plugins – Extra features for Dolphin.
--kate – KDE advanced text editor.
--konsole – KDE terminal emulator.
--krita – Professional digital painting program.
--kvantum / kvantum-theme-catppuccin-git – Qt theme engine + Catppuccin theme.
--polkit-kde-agent – Polkit authentication agent for KDE environments.
+4. KDE / Qt Apps & Frameworks - (You have multiple KDE/Qt applications and theming tools.)<br>
+Packages:<br>
+-breeze – Official KDE theme and icon set.<br>
+-breeze-icons<br>
+-kitty – GPU accelerated terminal.<br>
+-discover – KDE software manager.<br>
+-dolphin – KDE file manager.<br>
+-dolphin-plugins – Extra features for Dolphin.<br>
+-kate – KDE advanced text editor.<br>
+-konsole – KDE terminal emulator.<br>
+-krita – Professional digital painting program.<br>
+-kvantum / kvantum-theme-catppuccin-git – Qt theme engine + Catppuccin theme.<br>
+-polkit-kde-agent – Polkit authentication agent for KDE environments.<br><br>
 
-5. Audio / Pipewire / GStreamer - (Multimedia and audio support.)
-Packages:
--PipeWire stack
--pipewire – Modern audio/video server.
--gst-plugin-pipewire – PipeWire integration for GStreamer.
--pavucontrol – Pulse/pipewire volume control GUI.
--GStreamer codecs
--gst-libav – Extra codecs via FFmpeg.
--gst-plugins-base – Required base codecs.
--gst-plugins-good – High-quality free codecs.
--gst-plugins-bad – Less-tested codecs.
--gst-plugins-ugly – Codecs with licensing concerns.
+5. Audio / Pipewire / GStreamer - (Multimedia and audio support.)<br>
+Packages:<br>
+-PipeWire stack<br>
+-pipewire – Modern audio/video server.<br>
+-gst-plugin-pipewire – PipeWire integration for GStreamer.<br>
+-pavucontrol – Pulse/pipewire volume control GUI.<br>
+-GStreamer codecs<br>
+-gst-libav – Extra codecs via FFmpeg.<br>
+-gst-plugins-base – Required base codecs.<br>
+-gst-plugins-good – High-quality free codecs.<br>
+-gst-plugins-bad – Less-tested codecs.<br>
+-gst-plugins-ugly – Codecs with licensing concerns.<br>
 
-6. Fonts & Icons
-Packages:
--otf-font-awesome – Popular icon font.
--ttf-hack – Monospace programming font.
+6. Fonts & Icons<br>
+Packages:<br>
+-otf-font-awesome – Popular icon font.<br>
+-ttf-hack – Monospace programming font.<br>
+<br>
+7. System Utilities / Monitoring - (Tools for monitoring hardware and managing power.)<br>
+Packages:<br>
+-cpupower – Manage CPU frequency scaling.<br>
+-brightnessctl – Control screen brightness.<br>
+-thermald – Temperature management daemon.<br>
+-smartmontools – SMART disk health monitoring.<br>
+-htop / btop – System resource monitors.<br>
+-nvtop – GPU usage monitor (NVIDIA/AMD/Intel).<br>
+<br>
+8. File Managers / Viewers<br>
+Packages:<br>
+-qview – Simple, lightweight image viewer.<br>
+-ark – KDE archive/compression tool.<br><br>
 
-7. System Utilities / Monitoring - (Tools for monitoring hardware and managing power.)
-Packages:
--cpupower – Manage CPU frequency scaling.
--brightnessctl – Control screen brightness.
--thermald – Temperature management daemon.
--smartmontools – SMART disk health monitoring.
--htop / btop – System resource monitors.
--nvtop – GPU usage monitor (NVIDIA/AMD/Intel).
-
-8. File Managers / Viewers
-Packages:
--qview – Simple, lightweight image viewer.
--ark – KDE archive/compression tool.
-
-9. Package Management / AUR Tools
-Packages:
--paru – AUR helper.
--paru-debug – Debug symbols for paru.
-
-11. Apps & Extras
-Packages:
--firefox – Web browser.
--dunst – Lightweight notification daemon.
--rofi / wofi – App launchers (rofi = X11/Wayland; wofi = wayland-native).
--nwg-look – GTK appearance manager.
--nwg-displays – Display configuration utility for Wayland.
-
-12. Miscellaneous
-Packages:
--archlinux-xdg-menu – Auto-generates menu entries for desktop environments.
--uwsm – Universal Wayland session manager.
+9. Package Management / AUR Tools<br>
+Packages:<br>
+-paru – AUR helper.<br>
+-paru-debug – Debug symbols for paru.<br>
+<br>
+11. Apps & Extras<br>
+Packages:<br>
+-firefox – Web browser.<br>
+-dunst – Lightweight notification daemon.<br>
+-rofi / wofi – App launchers (rofi = X11/Wayland; wofi = wayland-native).<br>
+-nwg-look – GTK appearance manager.<br>
+-nwg-displays – Display configuration utility for Wayland.<br>
+<br>
+12. Miscellaneous<br>
+Packages:<br>
+-archlinux-xdg-menu – Auto-generates menu entries for desktop environments.<br>
+-uwsm – Universal Wayland session manager.<br>
 
