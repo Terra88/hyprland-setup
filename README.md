@@ -33,6 +33,7 @@ on top right of your screen. "Notice - if the wallpaper folder has something els
 ###**Current keybinds for Hyprland, are:<br>**
 ###**-windows+Q : exit highlighted window/program.<br>**
 ###**-windows+Enter(Return): open terminal<br>**
+###**-windows+B: open browser<br>**
 ###**-windows+R: open menu(installed programs)<br>**
 ###**-windows+E: open file manager.<br>**
 ###**-windows+M: logout to login screen(for power button etc)<br>**
