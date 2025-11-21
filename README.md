@@ -42,8 +42,8 @@ windows + M to logout and re-login, to load the theme up.
 
 Packages to Install:
 INSTALL COMMANDS:
-Basic hyprland packages:
-(hyprland hyprpaper hyprshot hypridle hyprlock)
+Basic hyprland packages:<br>
+(hyprland hyprpaper hyprshot hypridle hyprlock)<br>
 
 Pacman:(copy / paste to terminal)<br>
 sudo pacman -S nano wget networkmanager network-manager-applet bluez bluez-utils blueman hypridle hyprlock hyprpaper hyprshot slurp swayidle swaylock waybar xdg-desktop-portal-hyprland xdg-user-dirs qt5-wayland qt6-wayland qt5ct qt6ct xdg-utils breeze breeze-icons discover dolphin dolphin-plugins kate konsole krita kvantum polkit-kde-agent pipewire gst-plugin-pipewire pavucontrol gst-libav gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly otf-font-awesome ttf-hack cpupower brightnessctl thermald smartmontools htop btop nvtop qview ark kitty konsole firefox dunst rofi wofi nwg-look nwg-displays archlinux-xdg-menu uwsm
