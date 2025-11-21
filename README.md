@@ -1,4 +1,5 @@
-# My-Hyprland-Setup-And-Config-Files<br><br>
+# Hyprland-Setup/Settings-And-Config-Files<br><br> Configs work on all, but package libraries and how to install them varies depending on distro:
+<br>
 Read configuration-steps-hyprland.txt or follow the readme for setting up this theme.
 
 Features: Wallpaper engine, screen lock(hyprlock),Custom Waybar with interactive widgets like: audio/mic volume control, when pressed opens pavucontrol, bluetooth/network widgets, extra menu button, to open current default menu app: rofi), info bar that informs current folder path or web page name etc.
