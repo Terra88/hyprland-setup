@@ -9,7 +9,8 @@ Features:<br>
 -Screen lock(hyprlock)&Wlogout interactive widgets for (power options).<br>
 -Custom Waybar with interactive widgets like: audio/mic volume control, when pressed opens pavucontrol, bluetooth/network widgets, extra menu button, to open current default menu app: rofi)<br>
 -Info bar that informs current folder path or web page name etc.<br>
--Kitty terminal customised to work with the theme.<br>
+-Kitty terminal & Dolphin file manager customised to work with the theme(kvantum / kvantum-theme-catppuccin-git – Qt theme engine + Catppuccin theme.).<br>
+-uses otf-font-awesome - icons etc.<br>
 <img width="2560" height="1440" alt="2025-11-21-115942_hyprshot" src="https://github.com/user-attachments/assets/bc580e32-c09c-446c-8198-43d1777b9a01" />
 <img width="2560" height="1440" alt="2025-11-21-002603_hyprshot" src="https://github.com/user-attachments/assets/c23b24d8-0abe-48dd-8a05-4ddd49224969" />
 
