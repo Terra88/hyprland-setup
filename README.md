@@ -5,7 +5,6 @@ Configs work on all, but package libraries and how to install them varies depend
 Read configuration-steps-hyprland.txt or follow the readme for setting up this theme.
 
 Features: Wallpaper engine, screen lock(hyprlock),Custom Waybar with interactive widgets like: audio/mic volume control, when pressed opens pavucontrol, bluetooth/network widgets, extra menu button, to open current default menu app: rofi), info bar that informs current folder path or web page name etc.
-<img width="2560" height="1440" alt="2025-11-21-002517_hyprshot" src="https://github.com/user-attachments/assets/b8803968-622d-4f05-b733-59339856d9bd" />
 <img width="2560" height="1440" alt="2025-11-21-002603_hyprshot" src="https://github.com/user-attachments/assets/c23b24d8-0abe-48dd-8a05-4ddd49224969" />
 
 Notice: This project is still under construction.
