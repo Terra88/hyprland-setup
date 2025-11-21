@@ -1,4 +1,6 @@
-# Hyprland-Setup/Settings-And-Config-Files<br><br> Configs work on all, but package libraries and how to install them varies depending on distro:
+# Hyprland-Setup/Settings-And-Config-Files<br><br> 
+
+Configs work on all, but package libraries and how to install them varies depending on distro:
 <br>
 Read configuration-steps-hyprland.txt or follow the readme for setting up this theme.
 
