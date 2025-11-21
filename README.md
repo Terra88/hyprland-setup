@@ -14,11 +14,7 @@ Features:<br>
 <img width="2560" height="1440" alt="2025-11-21-115942_hyprshot" src="https://github.com/user-attachments/assets/bc580e32-c09c-446c-8198-43d1777b9a01" />
 <img width="2560" height="1440" alt="2025-11-21-002603_hyprshot" src="https://github.com/user-attachments/assets/c23b24d8-0abe-48dd-8a05-4ddd49224969" />
 
-Notice: This project is still under construction.
-Custom waybar & wallpaper engine:
-Create wallpaper folder to /home and add wallpaper.sh to /home folder aswell.
-You can now add pictures to the wallpaper folder, or make sub folders for wallpapers and change wallpaper by pressing win+shift+w or by clicking the button 
-on top right of your screen. "Notice - if the wallpaper folder has something else than pictures in it, it will break like .rar .zip etc files"
+Notice: This project is still under construction - so more updates and features coming out.
 
 ###**<br>If you want to use my other project: https://github.com/terra88/archlinux to install arch linux, you can install hyprland and the theme with it automatically with these steps:<br>^**
 ###**-Block 11 will prompt if you install Hyprland and ask, if you want to add my custom theme to it y/N. If you answer yes, additional packages will be installed that the theme requires and .config files will be copied** ###**automatically from this GitHub project. On a note you should also install the extra AUR packages, which are required for the theme.<br><br>**
