@@ -5,7 +5,8 @@ Configs work on all, but package libraries and how to install them varies depend
 Read configuration-steps-hyprland.txt or follow the readme for setting up this theme.
 
 Features:<br> 
--Wallpaper engine, screen lock(hyprlock)&Wlogout interactive widgets for (power options.<br>
+-Wallpaper engine(rotate wallpapers with keybind or interactive wallpaper button "top right")<br> 
+-Screen lock(hyprlock)&Wlogout interactive widgets for (power options).<br>
 -Custom Waybar with interactive widgets like: audio/mic volume control, when pressed opens pavucontrol, bluetooth/network widgets, extra menu button, to open current default menu app: rofi)<br>
 -Info bar that informs current folder path or web page name etc.
 <img width="2560" height="1440" alt="2025-11-21-115942_hyprshot" src="https://github.com/user-attachments/assets/bc580e32-c09c-446c-8198-43d1777b9a01" />
