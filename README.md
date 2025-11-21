@@ -55,7 +55,7 @@ cd paru<br>
 makepkg -si<br>
 <br>
 
-paru -S kvantum-theme-catppuccin-git qt6ct-kde wlogout wlrobs-hg qview<br><br>
+paru -S kvantum-theme-catppuccin-git wlogout wlrobs-hg qview<br><br>
 
 All packages listed here, what the "system" is built from. excluded linux kernels & gpu drivers etc.<br>
 CONTENTS:<br>
