@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
 
-WALLPAPER_DIR="$HOME/wallpaper/"
-CURRENT_WALL=$(hyprctl hyprpaper listloaded)
+WALLPAPER_DIR="$HOME/wallpaper"
 
-#Get a random wallpaper that is not the current one
+# get currently used wallpaper(s)
+CURRENT_WALL=$(hyprctl hyprpaper listactive | awk -F', ' '{print $2}')
+
+# pick a random wallpaper different from current
 WALLPAPER=$(find "$WALLPAPER_DIR" -type f ! -name "$(basename "$CURRENT_WALL")" | shuf -n 1)
 
-#Apply the selected wallpaper
-hyprctl hyprpaper reload ,"$WALLPAPER"
+# preload and apply
+hyprctl hyprpaper preload "$WALLPAPER"
+hyprctl hyprpaper wallpaper ",$WALLPAPER"
