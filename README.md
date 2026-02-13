@@ -18,7 +18,7 @@ Notice: This project is still under construction - so more updates and features 
 
 ###**<br>If you want to use my other project: https://github.com/terra88/archlinux to install arch linux, you can install hyprland and the theme with it automatically with these steps:<br>^**
 ###**-Block 11 will prompt if you install Hyprland and ask, if you want to add my custom theme to it y/N. If you answer yes, additional packages will be installed that the theme requires and .config files will be copied** ###**automatically from this GitHub project. On a note you should also install the extra AUR packages, which are required for the theme.<br><br>**
-###**-it will automatically give new user the rights to that folder. Also wallpaper engine will be added to /home as wallpaper.sh and a wallpaper folder that the engine rotates. hyprlock will have a lock button and a wallpaper**
+###**-it will automatically give new user the rights to that folder. Also wallpaper engine will be added to /home/.config/ as wallpaper.sh and a wallpaper folder that the engine rotates. hyprlock will have a lock button and a wallpaper**
 ###**set to it in /home/wallpaper folder called lock.jpg**
 <br>
 ###**-Also Hyprland + GDM works best together. When logging in first time: (remember to click username, then press the gear icon low right and select hyprland before you login first time)<br>**
@@ -35,7 +35,7 @@ CONTENTS:
 
 After Archinstall -> hyprland window manager configuration - For Manual installation.
 Unzip the config.zip files under "/home/username/.config/" folder. (PS.the folder is hidden, you can enter it from the top bar)
-copy and paste wallpaper & wallpaper.sh to /home directory
+copy and paste wallpaper folder to /home directory
 
 after you have all the packages unzipped to .config folder, press:
 windows + M to logout and re-login, to load the theme up.
