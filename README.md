@@ -25,14 +25,40 @@ sudo pacman -S --needed \
   networkmanager network-manager-applet bluez bluez-utils blueman \
   polkit-kde-agent archlinux-xdg-menu ttf-jetbrains-mono-nerd otf-font-awesome fastfetch
 
-2. Installation & SetupExtract configurations and wallpapers to your home directory:Bashunzip config.zip -d ~/.config/
+2. Installation & SetupExtract configurations and wallpapers to your home directory:
+Bash
+
+unzip config.zip -d ~/.config/
 unzip wallpaper.zip -d ~/
 chmod +x ~/.config/hypr/scripts/*.sh
-(Ensure wallpapers are located in ~/wallpaper/nature-culture/ and the lockscreen image is placed at ~/wallpaper/lock.jpg.)Create KDE & Kate theme directories and link the dynamic palette:Bashmkdir -p ~/.local/share/color-schemes ~/.local/share/org.kde.syntax-highlighting/themes
+
+(Ensure wallpapers are located in ~/wallpaper/nature-culture/ and the lockscreen image is placed at ~/wallpaper/lock.jpg.)Create KDE & Kate theme directories and link the dynamic palette:
+Bash
+
+mkdir -p ~/.local/share/color-schemes ~/.local/share/org.kde.syntax-highlighting/themes
 ln -sf ~/.config/kdeglobals ~/.local/share/color-schemes/Matugen.colors
-Initialize all generated color files:Bashmatugen image ~/wallpaper/nature-culture/wp1.jpg --source-color-index 0
+
+
+Initialize all generated color files:
+Bash
+matugen image ~/wallpaper/nature-culture/wp1.jpg --source-color-index 0
+
 Activate the theme in Kate (one-time setup):Open Kate and navigate to Settings → Configure Kate… → Color Themes → Default Theme: Matugen.Also select Settings → Window Color Scheme → Matugen.Log into Hyprland:
-Select Hyprland (uwsm-managed) on your display manager (e.g., GDM) and log in.3. KeybindsKeybindActionSUPER + ReturnOpen terminal (kitty)SUPER + ROpen application launcher (rofi)SUPER + UOpen utility, theme, and power menu (utility-menu.sh)SUPER + Shift + WSwitch to a random wallpaper and regenerate all theme colorsSUPER + EOpen file manager (dolphin)SUPER + BOpen web browser (firefox)SUPER + QClose active windowSUPER + VToggle floating / tiled window stateSUPER + PToggle pseudo-tiling (Dwindle)SUPER + S / SUPER + Shift + SToggle / move active window to special workspace (magic)SUPER + 1–0Switch to workspace (1–10)SUPER + Shift + 1–0Move active window to workspace (1–10)SUPER + Arrow KeysMove focus between windowsSUPER + MExit Hyprland session4. Directory Structure (~/.config/)Plaintext~/.config/
+Select Hyprland (uwsm-managed) on your display manager (e.g., GDM) and log in.
+
+3. KeybindsKeybindAction
+SUPER + ReturnOpen terminal (kitty)
+SUPER + ROpen application launcher (rofi)
+SUPER + UOpen utility, theme, and power menu (utility-menu.sh)
+SUPER + Shift + WSwitch to a random wallpaper and regenerate all theme colors
+SUPER + EOpen file manager (dolphin)SUPER + BOpen web browser (firefox)
+SUPER + QClose active windowSUPER + VToggle floating / tiled window state
+SUPER + PToggle pseudo-tiling (Dwindle)SUPER + S / SUPER + Shift + SToggle / move active window to special workspace (magic)
+SUPER + 1–0Switch to workspace (1–10)
+SUPER + Shift + 1–0Move active window to workspace (1–10)
+SUPER + Arrow KeysMove focus between windows
+SUPER + MExit Hyprland session4. Directory Structure (~/.config/)Plaintext~/.config/
+
 ├── hypr/
 │   ├── hyprland.lua            # Main config, environment variables, and autostart
 │   ├── hyprlock.conf           # Lockscreen configuration
