@@ -10,6 +10,10 @@ A modular, Lua-based Hyprland desktop environment where the entire system color 
 * **Rofi Utility Menu (`utility-menu.sh`):** Unified menu for wallpaper selection, preset themes (Catppuccin Mocha Pink, Tokyo Night, Gruvbox), audio/display settings, and power management (lock, suspend, reboot, shutdown).
 * **Unified GTK & Qt6 Theming:** Nautilus (GTK3/GTK4) as well as Dolphin and Kate (Qt6/Breeze/KTextEditor) automatically follow the active dynamic palette.
 
+<img width="2560" height="1600" alt="2026-11-23-103431_hyprshot" src="https://github.com/user-attachments/assets/056cf580-939d-492b-88aa-e6e68626d51a" />
+<img width="2560" height="1600" alt="2026-11-23-103255_hyprshot" src="https://github.com/user-attachments/assets/73a7cdba-b56a-4ea5-9a41-0c77ee971eff" />
+<img width="2560" height="1600" alt="2026-11-23-102609_hyprshot" src="https://github.com/user-attachments/assets/820e8665-b608-4455-80c8-5e37b8d78321" />
+
 ---
 
 ## 1. Required Packages (Arch Linux)
