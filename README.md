@@ -7,7 +7,7 @@ A modular, Lua-based Hyprland desktop environment where the entire system color 
 * **Dynamic Color Pipeline (`matugen`):** Extracts dominant colors from the active wallpaper and updates every desktop component in under a second without restarting the session.
 * **Smooth Wallpaper Engine (`awww`):** High-refresh-rate (144 Hz) animated wallpaper transitions triggered directly from the top bar or via keybind.
 * **Floating Waybar & Calendar:** Clicking the clock toggles the date format, and hovering opens an interactive monthly calendar. Includes quick-action buttons on the top right for wallpaper switching and the utility menu.
-* **Rofi Utility Menu (`utility-menu.sh`):** Unified menu for wallpaper selection, preset themes (Catppuccin Mocha Pink, Tokyo Night, Gruvbox), audio/display settings, and power management (lock, suspend, reboot, shutdown).
+* **Rofi Utility Menu (`utility-menu.sh`):** Unified menu for battery, volume, wifi/network, wallpaper selection, preset themes (Catppuccin Mocha Pink, Tokyo Night, Gruvbox), audio/display settings, and power management (lock, suspend, reboot, shutdown).
 * **Unified GTK & Qt6 Theming:** Nautilus (GTK3/GTK4) as well as Dolphin and Kate (Qt6/Breeze/KTextEditor) automatically follow the active dynamic palette.
 
 <img width="2560" height="1600" alt="2026-11-23-103431_hyprshot" src="https://github.com/user-attachments/assets/056cf580-939d-492b-88aa-e6e68626d51a" />
@@ -76,6 +76,7 @@ SUPER + MExit Hyprland session4. Directory Structure (~/.config/)Plaintext~/.con
 │   └── scripts/
 │       ├── monitor_reload.sh   # Display hotplug / reload handler
 │       ├── theme-switch.sh     # Automated wallpaper and color palette switcher
+|       ├── wifi-menu.sh        # Wi-fi script, to scan available wi-fi networks, to waybar button.
 │       └── utility-menu.sh     # Rofi-based theme and system utility menu
 ├── matugen/
 │   ├── config.toml             # Matugen targets (Hyprland, Waybar, Rofi, Kitty, GTK, Qt6, Kate)
