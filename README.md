@@ -29,8 +29,6 @@ sudo pacman -S --needed \
   networkmanager network-manager-applet bluez bluez-utils blueman \
   polkit-kde-agent archlinux-xdg-menu ttf-jetbrains-mono-nerd otf-font-awesome fastfetch
 
-If you want to use Neovim with the theme:
-sudo pacman -S --needed neovim ripgrep fd wl-clipboard tree-sitter-cli
 
 2. Installation & SetupExtract configurations and wallpapers to your home directory:
 Bash
