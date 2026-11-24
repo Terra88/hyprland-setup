@@ -52,7 +52,7 @@ Activate the theme in Kate (one-time setup):Open Kate and navigate to Settings â
 Select Hyprland (uwsm-managed) on your display manager (e.g., GDM) and log in.
 
 3. KeybindsKeybindAction
-SUPER + ReturnOpen terminal (kitty)
+SUPER + Return Open terminal (kitty)
 SUPER + ROpen application launcher (rofi)
 SUPER + UOpen utility, theme, and power menu (utility-menu.sh)
 SUPER + Shift + WSwitch to a random wallpaper and regenerate all theme colors
